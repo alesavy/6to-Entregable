@@ -4,9 +4,8 @@
   "description": "",
   "main": "estilos.js",
   "scripts": {
-    "build-css": "node-sass --include.path scss scss/estilos.scss css/estilos.css",
-    "watch-css": "nodemon -e scss -x \"npm run build-css\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch:css": "nodemon -e scss -x \npm run build:css\"",
+    "build:css": "node-sass --output-style compressed scss/estilos.scss css/estilos.css"
   },
   "author": "",
   "license": "ISC",
